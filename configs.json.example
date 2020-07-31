@@ -1,0 +1,9 @@
+{
+    "AccountBot": {
+        "webhookURL": "REGULAR_ACCOUNT_CHANNEL_WEBHOOK",
+        "webhookURLLevel": "LEVELING_ACCOUNT_CHANNEL_WEBHOOK",
+        "discordMention": "<@!DISCORD_ID>",
+        "discordMentionLevel": "<@!DISCORD_ID>",
+        "color": 15158332
+    }
+}

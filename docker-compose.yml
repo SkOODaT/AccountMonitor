@@ -1,0 +1,14 @@
+version: '1'
+
+services:
+  account_monitor:
+    build: .
+    tty: true
+    restart: unless-stopped
+    ports:
+      - 4000:4000
+    container_name: AccountMonitor
+#    volumes:
+#      - .:/accountmonitor
+    environment:
+    command: ["accountmonitor.py"]
